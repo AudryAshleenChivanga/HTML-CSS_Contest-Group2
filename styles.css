@@ -3,13 +3,17 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('images/background.png') no-repeat center center fixed;
+   
     background-size: cover;
     display: flex;
     flex-direction: column;
     height: 100vh;
     color: #00008B;  /* Dark blue text color */
     position: relative;
+}
+header{
+    background: #000;
+    background-size:cover ;
 }
 
 header, main, footer {
@@ -19,6 +23,9 @@ header, main, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.all{
+    background-image: url(images/background.png);
 }
 
 /* Header Styles */
@@ -103,6 +110,106 @@ main section div div div img {
     width: 100px;
     border-radius: 50%;
 }
+.head{
+    background: gray;
+    color: #fff;
+    height: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+#event{
+           
+    justify-items: center;
+    justify-items: center;
+    background-image: url(images/show.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.work img{
+width: 90%;
+transition: transform 0.5s;
+
+}
+.show-list{
+display: flex;
+border-radius: 10px;
+text-align: center;
+
+}
+.show{
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+}
+.layer{
+color: #fff;
+width: 100%;
+height: 0%;
+background:linear-gradient(rgba(0,0,0,0.6),#ff004f) ;
+border-radius: 10px;
+position: absolute;
+left: 0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+text-align: center;
+font-size: 13px;
+transition: height 0.5s ;
+
+}
+.layer h3{
+font-weight:500 ;
+margin-bottom: 20px;
+
+}
+.layer a{
+margin-top: 20px;
+color: #ff004f;
+text-decoration: none;
+font-size: 18px;
+line-height: 60px;
+background: #fff;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+text-align: center;
+
+}
+.show:hover img{
+transform: scale(1.1);
+
+}
+.show:hover .layer{
+height: 100%;
+}
+.btn{
+margin-left: 50%;
+border: 1px solid #ff004f;
+text-decoration: none;
+border-radius: 6px;
+width: fit-content ;
+display: block;
+padding: 14px 40px;
+color: #fff;
+transition: background 0.5s;
+
+}
+.btn:hover{
+background: #ff004f;
+}
+.show img{
+height: 300px;
+margin: 10px;
+}
+
 
 /* Footer Styles */
 footer {
