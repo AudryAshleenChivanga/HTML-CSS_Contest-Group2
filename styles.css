@@ -8,12 +8,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    color: #00008B;  /* Dark blue text color */
+    color: #fff;  /* Dark blue text color */
     position: relative;
 }
 header{
-    background: #000;
+    background:black;
     background-size:cover ;
+    color: #fff;
 }
 
 header, main, footer {
@@ -25,8 +26,9 @@ header, main, footer {
     justify-content: center;
 }
 .all{
-    background-image: url(images/background.png);
+   background-image: url(images/show.jpg);
 }
+
 
 /* Header Styles */
 header {
@@ -43,20 +45,18 @@ header {
     left: 10px;  /* At the left with a little margin */
 }
 
-header img {
-    width: 80px;  /* Increased logo size */
-}
 
 header div a {
     margin: 0 5px;
     text-decoration: none;
-    color: #00008B;  /* Dark blue text color for links */
+    color: #7d7d83;  /* Dark blue text color for links */
     font-size: 0.8em;
 }
 
+
 /* Main Content Styles */
 main {
-    color: #00008B;  /* Ensuring dark blue text color for main content */
+    color:#fff;  /* Ensuring dark blue text color for main content */
 }
 
 h1, h2, h3 {
@@ -91,7 +91,7 @@ main section div h2 {
 }
 
 main section div h2 span {
-    color: #ffb700;  /* Keeping the original yellow color for this span */
+    color:#ff004f;  /* Keeping the original yellow color for this span */
 }
 
 /* Objectives Styles */
@@ -111,11 +111,14 @@ main section div div div img {
     border-radius: 50%;
 }
 .head{
-    background: gray;
-    color: #fff;
-    height: 200px;
+    background:white;
+    color: black;
+    height: 100px;
     text-align: center;
     font-size: 18px;
+}
+#nav{
+    margin-left: 50;
 }
 
 
