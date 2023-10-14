@@ -238,7 +238,8 @@ footer {
 
 /*About us section*/
 .about-us {
-    margin-top: 3%;
+    margin-top: 10%;
+    background-color: #3e4346;
 }
 .about {
     text-align: center;
@@ -256,4 +257,13 @@ footer {
 }
 .team-member {
     margin: -1% 45px 0px;
+}
+.alumni-picture {
+    width: 200px;
+    height: 200px;
+}
+.alumni-names {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: #80fcb6;
 }
