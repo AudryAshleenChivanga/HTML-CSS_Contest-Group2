@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <title>HTML, advanced</title>
     
@@ -20,7 +20,7 @@
                 <a href="#" style="color:#ff004f;">Home</a>
                 <a href="#event">Events</a>
                 <a href="#">About</a>
-                <a href="#">Contact us</a>
+                <a href="#contact">Contact us</a>
             </div>
         </header>
 
@@ -33,7 +33,7 @@
             <section id="banner">
                 <div id="banner-text">
                     <h1>BE INFORMED</h1>
-                    <p style="font-size: 20px;">Our aims :<span>Student Growth</span>&Proffessional Development</p>
+                    <p style="font-size: 30px;">Our aims :<span>Student Growth</span>&Proffessional Development</p>
                     <button >Feel free to browse through</button>
                 </div>
                 <div id="objectives">
@@ -110,7 +110,7 @@
 </div>
 
 <!--About us section-->
-<section class="about-us">
+<section id="about-us">
     <h1 class="about">About us</h1>
 
     <div class="team-member">
@@ -137,6 +137,44 @@
         <p>Class of 2026 <br>"Your technical expertise and brief description here."</p>
     </div>
 </section>
+
+<div id="contact">
+    <div class="container">
+        <div>
+
+        </div>
+        <div class="row">
+            <div class="contact-left">
+             <h1 class="sub-title"> Contact us</h1>
+             <p> <i class='bx bx-send'></i>events@alustudent.com</p>
+             <p> <i class='bx bx-phone-call'></i>07908407676</p>
+             <div class="social-icons">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+           
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet">
+                        <h3>Reserve your slot</h3>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="your email"required>
+                    <input type="text" name="id" placeholder="Enter your student ID"required>
+                    <input type="number" name="number" placeholder="Enter your phone number"required>
+
+                    
+                    <button type="submit" class="btn btn2">RESERVE</button>
+                </form>
+                
+           
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="color: #fff;">copyright &copy BREINE made with<i class='bx bx-code-alt'></i>  </p>
+    </div>
+   </div>
+   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 
 
 </body>
