@@ -236,3 +236,24 @@ footer {
     }
 }
 
+/*About us section*/
+.about-us {
+    margin-top: 3%;
+}
+.about {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.alumni {
+    display: flex;
+    flex-direction: row;
+    padding-left: 45px;
+    margin-top: 87px;
+}
+.team-member {
+    margin: -1% 45px 0px;
+}
